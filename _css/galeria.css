@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* Criado por Boa Morte */
+li#img01 {
+	background: url('../_imagens/ned-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img02 {
+	background: url('../_imagens/bran-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img03 {
+	background: url('../_imagens/cat-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img04 {
+	background: url('../_imagens/rob-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img05 {
+	background: url('../_imagens/cers-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img06 {
+	background: url('../_imagens/jai-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img07 {
+	background: url('../_imagens/tyr-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img08 {
+	background: url('../_imagens/san-1season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img09 {
+	background: url('../_imagens/ary-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img10 {
+	background: url('../_imagens/jof-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img11 {
+	background: url('../_imagens/san-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img12 {
+	background: url('../_imagens/tyr-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img13 {
+	background: url('../_imagens/jon-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img14 {
+	background: url('../_imagens/dany-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img15 {
+	background: url('../_imagens/jai-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img16 {
+	background: url('../_imagens/stan-2season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img17 {
+	background: url('../_imagens/tyw-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img18 {
+	background: url('../_imagens/tyr-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img19 {
+	background: url('../_imagens/jon-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img20 {
+	background: url('../_imagens/dany-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img21 {
+	background: url('../_imagens/jai-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img22 {
+	background: url('../_imagens/rob-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img23 {
+	background: url('../_imagens/stan-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img24 {
+	background: url('../_imagens/ary-3season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img25 {
+	background: url('../_imagens/tyr-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img26 {
+	background: url('../_imagens/jon-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img27 {
+	background: url('../_imagens/cers-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img28 {
+	background: url('../_imagens/obe-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img29 {
+	background: url('../_imagens/dany-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img30 {
+	background: url('../_imagens/bran-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img31 {
+	background: url('../_imagens/Ary-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img32 {
+	background: url('../_imagens/san-4season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img33 {
+	background: url('../_imagens/tyr-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img34 {
+	background: url('../_imagens/spar-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img35 {
+	background: url('../_imagens/lan-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img36 {
+	background: url('../_imagens/dany-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img37 {
+	background: url('../_imagens/bol-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img38 {
+	background: url('../_imagens/Ary-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img39 {
+	background: url('../_imagens/jon-sam-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img40 {
+	background: url('../_imagens/stan-5season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img41 {
+	background: url('../_imagens/jon-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img42 {
+	background: url('../_imagens/bran-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img43 {
+	background: url('../_imagens/dany-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img44 {
+	background: url('../_imagens/jai-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img45 {
+	background: url('../_imagens/san-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img46 {
+	background: url('../_imagens/tyr-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img47 {
+	background: url('../_imagens/bol-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img48 {
+	background: url('../_imagens/Ary-6season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img49 {
+	background: url('../_imagens/jon-7season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img50 {
+	background: url('../_imagens/dany-7season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img51 {
+	background: url('../_imagens/cers-7season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+li#img52 {
+	background: url('../_imagens/vag-7season.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}

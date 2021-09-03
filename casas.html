@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Doc criado por Werner. Editado por Boa Morte -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Casas</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/casas.css">
+</head>
+<script language="JavaScript" src="_JavaScript/funcoes.js"></script>
+<body>
+<header id="cabecalho">
+
+<div id="flag">
+   <img class="flag" src="_imagens/Baratheon-Shield.png">
+   <img class="flag" src="_imagens/Stark-Shield.png">
+   <img id="logo" src="_imagens/game-of-thrones-logo.png">
+   <img class="flag" src="_imagens/Lannister-Shield.png">
+   <img class="flag" src="_imagens/Targaryen-Shield.png">
+ </div>
+
+    <nav id="menu"> <!--Aqui se cria no nav um menu de navegação. Feito por Werner, editado por Boa Morte-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pers.html">Personagens</a></li> <!--Editado por Werner, Boa Morte -->
+            <li><a href="mundo.html">Mundo</a></li>
+            <li><a href="casas.html">Casas</a></li>
+            <li><a href="extras.html">Extras</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="interface">    <!-- Toda a interface de conteúdo do site -->
+    <section>
+        <article id="Casas"><!--Feito por Werner Os mudaFrame Usam Java Script para Abrir Artigos ou Arquivos Html para cada casa-->
+        <ul class="titulo"><li><h3>Saiba sobre as Grandes Casas de Westeros</h3></li></ul>
+            <ul id="brasoes">
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Stark')"><img class="brasoes" src="_imagens/Stark.jpg"><br>Stark</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Lannister')"><img class="brasoes" src="_imagens/Lannister.jpg"><br>Lannister</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Baratheon')"><img class="brasoes" src="_imagens/Baratheon.jpg"><br>Baratheon</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Targaryen')"><img class="brasoes" src="_imagens/Targaryen.jpg"><br>Targaryen</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Tyrell')"><img class="brasoes" src="_imagens/Tyrell.jpg"><br>Tyrell</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Tully')"><img class="brasoes" src="_imagens/Tully.jpg"><br>Tully</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Arryn')"><img class="brasoes" src="_imagens/Arryn.jpg"><br>Arryn</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Martell')"><img class="brasoes" src="_imagens/Martell.jpg"><br>Martell</li>
+                <li class="nomes" onclick="mudaFrame('casas-tex.html#Greyjoy')"><img class="brasoes" src="_imagens/Greyjoy.jpg"><br>Greyjoy</li>
+            </ul>
+
+        </article>
+        <article id="textos">
+            <iframe src="casas-tex.html#Zero" name="frames" id="frame" frameborder="0" scrolling="no"></iframe>
+        </article>
+    </section>
+
+    <footer id="rodape"><!--Feito por Werner. Ainda Decidiremos o que poremos nos links. E tbm quem é o outro integrante. -->
+        <p>Por: Gustavo Gomes, Leonardo Boa Morte, Luiz Felipe, Rodrigo Mendes e Werner Römling<br/>
+            <a href="http://facebook.com" target="_blank">Facebook</a> |
+            <a href="http://twitter.com"target="_blank">Twitter</a></p>
+    </footer>
+</div>
+</body>
+</html>

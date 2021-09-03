@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--Doc criado por Werner, Recriado por Gustavo-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Extras</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/extras.css">
+</head>
+<script language="JavaScript" src="_JavaScript/funcoes.js"></script>
+<body>
+<header id="cabecalho">
+
+<div id="flag">
+   <img class="flag" src="_imagens/Baratheon-Shield.png">
+   <img class="flag" src="_imagens/Stark-Shield.png">
+   <img id="logo" src="_imagens/game-of-thrones-logo.png">
+   <img class="flag" src="_imagens/Lannister-Shield.png">
+   <img class="flag" src="_imagens/Targaryen-Shield.png">
+ </div>
+
+    <nav id="menu"> <!--Aqui se cria no nav um menu de navegação. Feito por Werner, editado por Boa Morte-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pers.html">Personagens</a></li> <!--Editado por Werner, Boa Morte -->
+            <li><a href="mundo.html">Mundo</a></li>
+            <li><a href="casas.html">Casas</a></li>
+            <li><a href="extras.html">Extras</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div id="interface">    <!-- Toda a interface de conteúdo do site -->
+        <section>
+            <article id="trailers"><!--Área de trailers. -Feito por Gustavo-->
+                <ul class="titulo"><li><h3>Assista aos Trailers de Cada Temporada</h3></li></ul>
+                <TABLE border="3"> <!--Botei isso pra conseguir um certo espaçamento entre os videos e introduzi-los-->
+                    <tr>
+                        <td><h4>Trailer Da Primeira Temporada</h4></td>
+                        <td><h4>Trailer Da Segunda Temporada</h4></td>
+                        <td><h4>Trailer Da Terceira Temporada</h4></td>
+                    </tr>
+                    <tr>
+                        <td><iframe width="276" height="146" src="https://www.youtube.com/embed/aLSBKCNUrgQ" frameborder="0" allowfullscreen></iframe></td>
+                        <td><iframe width="276" height="146" src="https://www.youtube.com/embed/UkESna3cF3I" frameborder="0" allowfullscreen></iframe></td>
+                        <td><iframe width="276" height="146" src="https://www.youtube.com/embed/XcB_rrpM_rk" frameborder="0" allowfullscreen></iframe></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Trailer Da Quarta Temporada</h4></td>
+                        <td><h4>Trailer Da Quinta Temporada</h4></td>
+                        <td><h4>Trailer Da Sexta Temporada</h4></td>
+                    </tr>
+                    <tr>
+                        <td><iframe width="276" height="146" src="https://www.youtube.com/embed/bZqvmKMSeK0" frameborder="0" allowfullscreen></iframe></td>
+                        <td><iframe width="276" height="146" src="https://www.youtube.com/embed/Sn90u_RnXKw" frameborder="0" allowfullscreen></iframe></td>
+                        <td><iframe width="276" height="146" src="https://www.youtube.com/embed/AWLdO2Tv1Po" frameborder="0" allowfullscreen></iframe></td>
+                    </tr>
+                    <tr><td><h4>Trailer Da Setima Temporada </h4></td></tr>
+                    <tr><td><iframe width="276" height="146" src="https://www.youtube.com/embed/JxWfvtnHtS0" frameborder="0" allowfullscreen></iframe></td></tr>
+                </TABLE>
+            </article>
+            <article>
+                <ul class="titulo"><li><h3>Galeria de Wallpapers</h3></li></ul>
+                <br/>
+
+                <div name="planof" class="planof" id="planof" onClick="esconde();">
+                    <ul>
+                        <li id="WallBig01"></li>
+                    </ul>
+                </div>
+                <div name="planof02" class="planof02" id="planof02" onClick="esconde02();">
+                    <ul>
+                        <li id="WallBig02"></li>
+                    </ul>
+                </div>                
+                <div name="planof03" class="planof03" id="planof03" onClick="esconde03();">
+                    <ul>
+                        <li id="WallBig03"></li>
+                    </ul>
+                <div name="planof04" class="planof04" id="planof04" onClick="esconde04();">
+                    <ul>
+                        <li id="WallBig04"></li>
+                    </ul>
+                <div name="planof05" class="planof05" id="planof05" onClick="esconde05();">
+                    <ul>
+                        <li id="WallBig05"></li>
+                    </ul>
+                </div>
+                <div name="planof06" class="planof06" id="planof06" onClick="esconde06();">
+                    <ul>
+                        <li id="WallBig06"></li>
+                    </ul>
+                </div>
+                <div name="planof07" class="planof07" id="planof07" onClick="esconde07();">
+                    <ul>
+                        <li id="WallBig07"></li>
+                    </ul>
+                </div>
+                <div name="planof08" class="planof08" id="planof08" onClick="esconde08();">
+                    <ul>
+                        <li id="WallBig08"></li>
+                    </ul>
+                </div>
+                </div>  
+                </div> 
+                <ul id="fotos">
+                    <li id="foto01" onClick="mostra();"><span>House Baratheon</span></li>
+                    <li id="foto02" onClick="mostra02();"><span>House Arryn</span></li>
+                    <li id="foto03" onClick="mostra03();"><span>House Stark</span></li>
+                    <li id="foto04" onClick="mostra04();"><span>House Lannister</span></li>
+                    <li id="foto05" onClick="mostra05();"><span>House Targaryen</span></li>
+                    <li id="foto06" onClick="mostra06();"><span>Valar Morghulis</span></li>
+                    <li id="foto07" onClick="mostra07();"><span>Corvo de Três Olhos</span></li>
+                    <li id="foto08" onClick="mostra08();"><span>Banners das Casas</span></li>
+                </ul>
+            </article>
+            <article id="audios"><!--Feito Por Werner. Artigo que contém alguns audios de trilha sonora. Editado Por Gustavo -->
+            <ul class="titulo"><li><h3>Ouça a Trilha Sonora</h3></li></ul>
+                <br/>
+                <br/>
+                <h4>Cover da Abertura no Violino</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%20Violin%20Cover.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+
+
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones - Main Titles</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%20-%20Main%20Titles.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S1 - Golden Crown</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%201S%20-%20A%20Golden%20Crown.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S1- Await The Kings Justice</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/GoT%201S%20-%20Await%20the%20King's%20Justice.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S1-Things I Do for Love</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%201S%20-%20Things%20I%20Do%20for%20Love.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S2- The Rains of Castamere</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/GoT%202S%20-%20The%20Rains%20of%20Castamere.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S2- The Throne is Mine</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20Of%20Thrones%202S%20-%20The%20Throne%20Is%20Mine.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S2- Three Blasts</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%202S%20-%20Three%20Blasts.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S3-Dracarys</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%203S%20-%20Dracarys.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <h4>Game of Thrones S3-It's  Always Summer Under The Sea Shirens Song</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/GoT%203S%20-%20It%20s%20Always%20Summer%20Under%20the%20Sea.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S3- The Lannisters Send Their Regards</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/GoT%203S-%20The%20Lannisters%20Send%20Their%20Regards.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S4-The Biggest Fire The North Has Ever Seen</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/GoT%204S%20-%20The%20Biggest%20Fire%20Ever%20Seen.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S4-The Children</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%204S%20-%20The%20Children.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S4- Watchers On The Wall</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%204S%20-%20Watchers%20on%20the%20Wall.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S5-Hardhome Pt.1</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%205S%20-%20Hardhome%20Pt%201.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S5-Hardhome Pt.2</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%205S%20-%20Hardhome%20Pt%202.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S5-Mother's Mercy</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%205S%20-%20Mother%20s%20Mercy.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S6-Light Of The Seven</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%206S%20-%20Light%20of%20the%20Seven.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S6- Red Woman</h4>
+                <audio class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%206S%20-%20The%20Red%20Woman.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+                <br/>
+                <br/>
+                <br/>
+                <h4>Game of Thrones S6- Winter Has Come</h4>
+                <audio id="ult" class="audios" controls>
+                    <source src="_audio/Game%20of%20Thrones%206S%20-%20Winter%20Has%20Come.mp3" type="audio/mpeg">
+                    Seu Navegador não Suporta A Função de Audio.
+                </audio>
+            </article>
+
+        </section>
+    <footer id="rodape"><!--Feito por Werner. Ainda Decidiremos o que poremos nos links. E tbm quem é o outro integrante. -->
+        <p>Por: Gustavo Gomes, Leonardo Boa Morte, Luiz Felipe, Rodrigo Mendes e Werner Römling<br/>
+            <a href="http://facebook.com" target="_blank">Facebook</a> |
+            <a href="http://twitter.com" target="_blank">Twitter</a></p>
+    </footer>
+</div>
+</body>
+</html>

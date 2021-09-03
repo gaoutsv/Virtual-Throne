@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* Criado e Editado por Boa Morte e Werner */
+body {
+	background-image: url("../_imagens/background_map.jpg");/* Feito Por Boa Morte */
+	width: 930px;
+	margin: 0px auto 0px auto;	
+}
+/* Estilo da interface - Feito por Boa Morte*/
+div#interface {
+	display: block;
+	width: 880px; /* Largura */
+	background-color: rgba(130, 85, 2, 0.85); /* Cor dourada */
+	margin: 20px auto 0px auto;/*Simplificação dos Margins.Para que o site possa se moldar a janela.   Feito Por Werner  */
+	padding: 20px; /* preenchimento */
+	box-shadow: 0px 0px 5px #000;
+	border-radius: 10px;
+}
+/* Posicionamento das bandeiras ornamentais - Feito por Boa Morte */
+header#cabecalho img#flag {
+	display: block;
+}
+/* Posicionamento das duas primeiras bandeiras - Feito por Boa Morte */
+div#flag {
+	display: flex;
+	align-items: center;
+	margin: -6px auto 0px auto;
+}
+/* Espaço entre as bandeiras - Feito por Boa Morte */
+img.flag {
+	margin: 5px;
+}
+/* Estilo de bloco aplicado ao Menu - Feito por Boa Morte */
+nav#menu { 
+	display: block;
+}
+/* Configura dos itens do menu - Feito por Boa Morte */
+nav#menu li {
+	display: inline-block; /* Alinha os itens horizontalmente */
+	text-transform: uppercase; /* Letras em maíusculas */
+	margin-left: 25px; /* espaçamento entre os itens */
+	margin-right: 25px; /* espaçamento entre os itens */
+	margin-top: -10px; /* ajuste dentro do menu */
+	padding: 10px; /* preenchimento */
+	transition: background-color 0.5s; /* Suavização de transição. NT: parece não estar funcionando!##### Werner : Tentei copiar e colar do projeto do site do guanabara e funcionou    */
+}
+/* Efeito de transição de cor - Feito por Boa Morte */ 
+nav#menu li:hover {
+	background-color: rgba(26, 18, 2, 0.5);
+}
+/* Configura a formatação do menu - Feito por Boa Morte*/
+nav#menu ul {
+	list-style: none; /* Esconde os marcadores da lista de menu */
+	font-family: arial sans-serif; /* Estilo da fonte de tudo que é escrito na lista de menu */
+	color: #B08800;  /* Cor da fonte (dourado) de tudo que é escrito na lista de menu */
+	font-size: 18pt; /* Tamanho da fonte de tudo que é escrito na lista de menu */
+	width: 900px; /* Largura por pixel */
+	height: 25px; /* Altura por pixel */
+	background-color: rgba(56,37,1,0.85); /*Define a Cor de Fundo do menu principal*/
+	margin: 10px auto 0px auto; /*Define a Margem -20pixels para cima, automatico para os lados esquerdo e direito e 0 pixeis para baixo*/
+	box-shadow: 0px 0px 5px #000; /* Define um sombreamento na caixa de menu */
+	padding: 10px; /* Preenchimento */
+	border-radius: 10px;
+}
+div#titulo-site {
+	display: block;
+	float: left;
+	background-color: rgb(26, 18, 2);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #000;
+}
+/* Configuração de tudo que é considerado artigo - Feito por Boa Morte*/
+article {
+	display: block;
+	background-color: rgba(56, 37, 1, 0.8);
+	padding: 10px;
+	box-shadow: 0px 0px 5px #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+/* Configuração para o texto introdutório/sinopse do site - Feito por Boa Morte */
+article#introducao {
+	float: left;
+	width:  500px;
+
+}
+/* Configuração para a secção de vídeos - Feito por Boa Morte */
+article#videos {
+	background-color: rgb(26, 18, 2);
+	float: right;
+	width: 300px;
+}
+
+#framevids { /* Feito por Werner. CSS DO Iframe.*/
+	width:300px;
+	height: 680px;
+	border: none;
+	border-radius: 10px;
+}
+
+/* Configuração para secção de fotos da série - Feito por Boa Morte */
+article#galeria {
+	float: left;
+	width: 850px;
+	margin-left: 5px;
+	background-color: rgb(26, 18, 2);
+}
+/* Configuração do tamanho do iframe dentro do artigo. - Feito por Boa Morte */
+iframe#galeria {
+	width: 850px;
+	height: 800px;
+	border-radius: 20px;
+}
+
+iframe.home {
+	box-shadow: 0px 0px 5px #000;
+}
+
+/*Configs para o Texto - Feito por Boa Morte*/
+/* Fixa a cor dourada para links e retira coloração diferente para links já visitados - Feito por Boa Morte*/
+a {
+	color: #B08800;
+	text-decoration: none;
+}
+
+/* Ao deslizar do mouse a escrita dos botões de menu ficam sublinhadas e esbranquissadas (O INVERNO ESTÁ CHEGANDO!) - Feito por Boa Morte */
+a:hover {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+
+ul.titulo {
+	list-style: none;
+	background-color: rgb(16, 8, 2);
+	font-family: arial sans-serif;
+	font-size: 12pt; 
+	color: #B08800;
+	box-shadow: 0px 0px 5px #000;
+	padding: 2px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h3 {
+	color: #B08800;
+	font-size: 14pt;
+}
+
+h4 {
+	background-color: #100802;
+	color: #B08800;
+	font-family: Arial sans-serif;
+	font-size: 13pt;
+	box-shadow: 0px 0px 5px #000;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+p {
+	color: #000;
+	font-family: arial sans-serif;
+	font-size: 12pt;
+	text-align: justify;
+}
+/*Rodapé Feito por Werner, editado por Boa Morte*/
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #000000;
+}
+footer#rodape p {
+	text-align: center;
+	padding: 5px;
+	color: #B08800;
+	background-color: #100802;
+	border-radius: 10px;
+	margin: 10px 100px 0px 100px;
+}
+footer#rodape a {
+	color: #B08800;
+}
+footer#rodape a:hover {
+	color: #CCC;
+	text-decoration: underline;
+}
+
+
+
+/*Como realizar a descontinuidade de Código*/
+
+/* Abra e Feche o comentário na parte do código que quer remover e Insira também quanto terminar de remover, o autor do código, quem o removeu e Digite: "CÓDIGO DESCONTINUADO"*/
+/*Caso Haja comentários nos código remova as abertura e fechamentos de comments para que não haja conflitos*/
+
+/*Exemplo de descontinuidade de código*/
+/* CÓDIGO DESCONTINUADO. autor: Werner. removido por: Werner
+div#interface {
+	width: 1000px; Largura de 1000 pixels - Werner
+	background-color: rgba(96,96,96,.95); Define a Cor de Fundo da Interface principal-feito por Werner
+	margin: -20px auto 0px auto; Define a Margem -20pixels para cima, automatico para os lados esquedo e direito e 0 pixeis para baixo -feito por Werner
+	box-shadow: 0px 0px 10px gray;  Define uma sombra na caixa que se forma nessa div(isão) interface -feito por Werner
+	padding: 10px; Define a distancia entre a borda e o conteúdo dentro da Div - feito por Werner
+}*/

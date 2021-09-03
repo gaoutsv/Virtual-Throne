@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Criado por Boa Morte */
+/* Configuração do artigo dos botões dos personages */
+article#personagens {
+	width: 155px;
+	float: left;
+}
+
+/* Formatação do artigo que contém o Iframe */
+article#biog {
+	float: right;
+	width: 550px;
+	margin-right: 80px;
+	margin-top: 15px;
+}
+/* Formatação do menu de botões dos personagens */
+nav#pers {
+	display: block;
+	margin-left: -40px;
+	margin-right: 20px;
+
+}
+/* Formatação do menu de botões dos personagens */
+nav#pers ul {
+	list-style: none;
+}
+/* Formatação dos botões dos personagens */
+nav#pers li {
+	padding: 8px;
+	background-color: rgba(26, 18, 2, 0.5);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	transition: background-color 0.5s;
+}
+
+nav#pers li:hover {
+	background-color: rgb(16, 8, 2);
+}
+
+span {
+	font-family: arial sans-serif;
+	font-size: 10pt;
+	font-weight: bolder;
+}
+
+iframe#Biog {
+	width: 550px;
+	height: 700px;
+}

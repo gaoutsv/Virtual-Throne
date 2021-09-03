@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*Feito por Werner. Editado por Boa Morte */
+/*Posiciona mais ao centro*/
+ul#brasoes {
+  margin-left: 20px;
+}
+
+ul#brasoes li {
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+img.brasoes, li.nomes:hover {
+  background-color: rgb(16, 8, 2);
+  color: #CCC;
+}
+
+/* Formata o artigo dos textos sobre as casas. Feito por Boa Morte */
+article#textos {
+	float: left;
+	width: 615px;
+	margin-left: 130px;
+}
+
+/*Formata o Frame*/
+#frame {
+    display: block;
+    width: 620px;
+    height: 730px;
+}
+/*Alinha no centro os nomes*/
+li.nomes {
+    text-align: center;
+    color: #B08800;
+    font-family: "Times New Roman" sans-serif;
+    font-size: 14pt;
+    font-style: bolder;
+}
