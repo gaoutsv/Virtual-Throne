@@ -94,7 +94,7 @@ ul {
 ul li#MundiBig {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/Westeros_and_Essos.jpg") no-repeat;
+    background: url("imagens/Westeros_and_Essos.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
