@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Criado e Editado por Boa Morte e Werner */
 body {
-	background-image: url("https://github.com/gaoutsv/Virtual-Throne/raw/main/_imagens/background_map.jpg");/* Feito Por Boa Morte */
+	background-image: url("imagens/background_map.jpg");/* Feito Por Boa Morte */
 	width: 930px;
 	margin: 0px auto 0px auto;	
 }
