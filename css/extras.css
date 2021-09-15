@@ -74,7 +74,7 @@ ul#fotos li {
     -webkit-transition: all .7s ease-in;
 }
 ul#fotos li#foto01 {
-    background: url("../_imagens/baratheonWall.jpg")no-repeat;
+    background: url("../imagens/baratheonWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -86,7 +86,7 @@ ul#fotos li#foto01:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto02{
-    background: url("../_imagens/ArrynWall.jpg")no-repeat;
+    background: url("../imagens/ArrynWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -98,7 +98,7 @@ ul#fotos li#foto02:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto03{
-    background: url("../_imagens/StarkWall.jpg")no-repeat;
+    background: url("../imagens/StarkWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -110,7 +110,7 @@ ul#fotos li#foto03:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto04{
-    background: url("../_imagens/LannisterWall.jpg")no-repeat;
+    background: url("../imagens/LannisterWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -122,7 +122,7 @@ ul#fotos li#foto04:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto05{
-    background: url("../_imagens/TargaryenWall.jpg")no-repeat;
+    background: url("../imagens/TargaryenWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -134,7 +134,7 @@ ul#fotos li#foto05:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto06{
-    background: url("../_imagens/ValarMorghulisWall.jpg")no-repeat;
+    background: url("../imagens/ValarMorghulisWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -146,7 +146,7 @@ ul#fotos li#foto06:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto07{
-    background: url("../_imagens/CorvoWall.jpg")no-repeat;
+    background: url("../imagens/CorvoWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -158,7 +158,7 @@ ul#fotos li#foto07:hover{
     background-size: 350px 200px;
 }
 ul#fotos li#foto08{
-    background: url("../_imagens/BannersWall.jpg")no-repeat;
+    background: url("../imagens/BannersWall.jpg")no-repeat;
     background-position:center;
     background-size: 1920px 1080px;
     background-color: white;
@@ -247,7 +247,7 @@ ul {
 #WallBig01 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/baratheonWall.jpg") no-repeat;
+    background: url("../imagens/baratheonWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -257,7 +257,7 @@ ul {
 #WallBig02 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/ArrynWall.jpg") no-repeat;
+    background: url("../imagens/ArrynWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -267,7 +267,7 @@ ul {
 #WallBig03 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/StarkWall.jpg") no-repeat;
+    background: url("../imagens/StarkWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -277,7 +277,7 @@ ul {
 #WallBig04 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/LannisterWall.jpg") no-repeat;
+    background: url("../imagens/LannisterWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -287,7 +287,7 @@ ul {
 #WallBig05 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/TargaryenWall.jpg") no-repeat;
+    background: url("../imagens/TargaryenWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -297,7 +297,7 @@ ul {
 #WallBig06 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/ValarMorghulisWall.jpg") no-repeat;
+    background: url("../imagens/ValarMorghulisWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -307,7 +307,7 @@ ul {
 #WallBig07 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/CorvoWall.jpg") no-repeat;
+    background: url("../imagens/CorvoWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
@@ -317,7 +317,7 @@ ul {
 #WallBig08 {
     width: 950px;
     height: 600px;
-    background: url("../_imagens/BannersWall.jpg") no-repeat;
+    background: url("../imagens/BannersWall.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
     border: 5px solid #100802;
